@@ -1,0 +1,296 @@
+{
+  "Azure Data Centers": [
+      {
+          "id": "azure1",
+          "Name": "East US (Virginia)",
+          "Latitude": 37.3719,
+          "Longitude": -79.8164
+      },
+      {
+          "id": "azure2",
+          "Name": "West US (California)",
+          "Latitude": 37.7749,
+          "Longitude": -122.4194
+      },
+      {
+          "id": "azure3",
+          "Name": "South Central US (Texas)",
+          "Latitude": 29.4241,
+          "Longitude": -98.4936
+      },
+      {
+          "id": "azure4",
+          "Name": "North Europe (Ireland)",
+          "Latitude": 53.3478,
+          "Longitude": -6.2597
+      },
+      {
+          "id": "azure5",
+          "Name": "West Europe (Netherlands)",
+          "Latitude": 52.3667,
+          "Longitude": 4.9
+      },
+      {
+          "id": "azure6",
+          "Name": "Southeast Asia (Singapore)",
+          "Latitude": 1.3521,
+          "Longitude": 103.8198
+      },
+      {
+          "id": "azure7",
+          "Name": "Japan East (Tokyo)",
+          "Latitude": 35.6895,
+          "Longitude": 139.6917
+      },
+      {
+          "id": "azure8",
+          "Name": "Australia East (Sydney)",
+          "Latitude": -33.8688,
+          "Longitude": 151.2093
+      },
+      {
+          "id": "azure9",
+          "Name": "Brazil South (São Paulo)",
+          "Latitude": -23.5505,
+          "Longitude": -46.6333
+      },
+      {
+          "id": "azure10",
+          "Name": "Central US (Iowa)",
+          "Latitude": 41.5908,
+          "Longitude": -93.6208
+      },
+      {
+          "id": "azure11",
+          "Name": "Central India (Pune)",
+          "Latitude": 18.5204,
+          "Longitude": 73.8567
+      },
+      {
+          "id": "azure12",
+          "Name": "East Asia (Hong Kong)",
+          "Latitude": 22.3193,
+          "Longitude": 114.1694
+      },
+      {
+          "id": "azure13",
+          "Name": "Canada Central (Toronto)",
+          "Latitude": 43.65107,
+          "Longitude": -79.347015
+      },
+      {
+          "id": "azure14",
+          "Name": "Canada East (Québec City)",
+          "Latitude": 46.8139,
+          "Longitude": -71.208
+      },
+      {
+          "id": "azure15",
+          "Name": "UK South (London)",
+          "Latitude": 51.5074,
+          "Longitude": -0.1278
+      }
+  ],
+  "AWS Data Centers": [
+      {
+          "id": "aws1",
+          "Name": "US East (N. Virginia)",
+          "Latitude": 39.0481,
+          "Longitude": -77.4728
+      },
+      {
+          "id": "aws2",
+          "Name": "US West (N. California)",
+          "Latitude": 37.7749,
+          "Longitude": -122.4194
+      },
+      {
+          "id": "aws3",
+          "Name": "EU (Ireland)",
+          "Latitude": 53.3498,
+          "Longitude": -6.2603
+      },
+      {
+          "id": "aws4",
+          "Name": "Asia Pacific (Sydney)",
+          "Latitude": -33.8688,
+          "Longitude": 151.2093
+      },
+      {
+          "id": "aws5",
+          "Name": "South America (São Paulo)",
+          "Latitude": -23.5505,
+          "Longitude": -46.6333
+      },
+      {
+          "id": "aws6",
+          "Name": "US East (Ohio)",
+          "Latitude": 40.4173,
+          "Longitude": -82.9071
+      },
+      {
+          "id": "aws7",
+          "Name": "US West (Oregon)",
+          "Latitude": 45.5051,
+          "Longitude": -122.675
+      },
+      {
+          "id": "aws8",
+          "Name": "Asia Pacific (Mumbai)",
+          "Latitude": 19.076,
+          "Longitude": 72.8777
+      },
+      {
+          "id": "aws9",
+          "Name": "Asia Pacific (Seoul)",
+          "Latitude": 37.5665,
+          "Longitude": 126.978
+      },
+      {
+          "id": "aws10",
+          "Name": "Asia Pacific (Singapore)",
+          "Latitude": 1.3521,
+          "Longitude": 103.8198
+      },
+      {
+          "id": "aws11",
+          "Name": "Asia Pacific (Tokyo)",
+          "Latitude": 35.6895,
+          "Longitude": 139.6917
+      },
+      {
+          "id": "aws12",
+          "Name": "Canada (Central)",
+          "Latitude": 43.65107,
+          "Longitude": -79.347015
+      }
+  ],
+  "Google Cloud Data Centers": [
+      {
+          "id": "gcp1",
+          "Name": "us-central1 (Iowa)",
+          "Latitude": 41.6005,
+          "Longitude": -93.6091
+      },
+      {
+          "id": "gcp2",
+          "Name": "us-east1 (South Carolina)",
+          "Latitude": 33.8361,
+          "Longitude": -81.1637
+      },
+      {
+          "id": "gcp3",
+          "Name": "us-east4 (Northern Virginia)",
+          "Latitude": 39.0438,
+          "Longitude": -77.4874
+      },
+      {
+          "id": "gcp4",
+          "Name": "us-west1 (Oregon)",
+          "Latitude": 45.5231,
+          "Longitude": -122.6765
+      },
+      {
+          "id": "gcp5",
+          "Name": "us-west2 (Los Angeles)",
+          "Latitude": 34.0522,
+          "Longitude": -118.2437
+      },
+      {
+          "id": "gcp6",
+          "Name": "southamerica-east1 (São Paulo)",
+          "Latitude": -23.5505,
+          "Longitude": -46.6333
+      },
+      {
+          "id": "gcp7",
+          "Name": "europe-north1 (Finland)",
+          "Latitude": 60.1699,
+          "Longitude": 24.9384
+      },
+      {
+          "id": "gcp8",
+          "Name": "europe-west1 (Belgium)",
+          "Latitude": 50.8503,
+          "Longitude": 4.3517
+      },
+      {
+          "id": "gcp9",
+          "Name": "europe-west2 (London)",
+          "Latitude": 51.5074,
+          "Longitude": -0.1278
+      },
+      {
+          "id": "gcp10",
+          "Name": "europe-west3 (Frankfurt)",
+          "Latitude": 50.1109,
+          "Longitude": 8.6821
+      },
+      {
+          "id": "gcp11",
+          "Name": "europe-west4 (Netherlands)",
+          "Latitude": 52.3676,
+          "Longitude": 4.9041
+      },
+      {
+          "id": "gcp12",
+          "Name": "asia-east1 (Taiwan)",
+          "Latitude": 25.033,
+          "Longitude": 121.5654
+      },
+      {
+          "id": "gcp13",
+          "Name": "asia-east2 (Hong Kong)",
+          "Latitude": 22.3193,
+          "Longitude": 114.1694
+      },
+      {
+          "id": "gcp14",
+          "Name": "asia-northeast1 (Tokyo)",
+          "Latitude": 35.6895,
+          "Longitude": 139.6917
+      },
+      {
+          "id": "gcp15",
+          "Name": "asia-northeast2 (Osaka)",
+          "Latitude": 34.6937,
+          "Longitude": 135.5023
+      },
+      {
+          "id": "gcp16",
+          "Name": "asia-south1 (Mumbai)",
+          "Latitude": 19.076,
+          "Longitude": 72.8777
+      },
+      {
+          "id": "gcp17",
+          "Name": "asia-southeast1 (Singapore)",
+          "Latitude": 1.3521,
+          "Longitude": 103.8198
+      },
+      {
+          "id": "gcp18",
+          "Name": "asia-southeast2 (Jakarta)",
+          "Latitude": -6.2088,
+          "Longitude": 106.8456
+      },
+      {
+          "id": "gcp19",
+          "Name": "australia-southeast1 (Sydney)",
+          "Latitude": -33.8688,
+          "Longitude": 151.2093
+      },
+      {
+          "id": "gcp20",
+          "Name": "northamerica-northeast1 (Montréal)",
+          "Latitude": 45.5017,
+          "Longitude": -73.5673
+      },
+      {
+          "id": "gcp21",
+          "Name": "me-west1 (Tel Aviv)",
+          "Latitude": 32.0853,
+          "Longitude": 34.7818
+      }
+  ]
+}
