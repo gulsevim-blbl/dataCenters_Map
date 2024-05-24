@@ -47,7 +47,7 @@ npm start
 ![Ekran görüntüsü 2024-05-24 233256](https://github.com/gulsevim-blbl/dataCenters_Map/assets/73358343/3bd3d85e-f06b-4d99-b3d8-f59e81943591)
 
 # For JSON validation control #
-## You can click on the link and provide JSON Validation
+### You can click on the link and provide JSON Validation
 https://jsonlint.com/#google_vignette
 
 # Contributing #
