@@ -12,6 +12,8 @@ Kullanıcılar, harita üzerinde görsel olarak veri merkezlerinin konumlarını
 Bu şekilde, kullanıcılar bulut bilişim altyapılarını daha iyi anlayabilir, belirli bir sağlayıcıya ait veri merkezlerini kolayca bulabilir ve karşılaştırabilirler. Ayrıca, küresel bir bakış açısıyla bulut stratejilerini planlarken de kullanışlı olabilir.
 
 ![Tam Hali projenin](https://github.com/gulsevim-blbl/dataCenters_Map/assets/73358343/2b64b1f9-9c08-4c3c-972b-fec1984e6438)
+![popmenü](https://github.com/gulsevim-blbl/dataCenters_Map/assets/73358343/a31e06fb-187e-4f44-b156-824f1d443c05)
+
 
 # Step 1: Clone the project #
 
