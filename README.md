@@ -45,3 +45,10 @@ npm start
 ![ALL](https://github.com/gulsevim-blbl/dataCenters_Map/assets/73358343/6cdb0cab-6b3f-4631-a099-ba5487fd9f8b)
 # full version of the project #
 ![Ekran görüntüsü 2024-05-24 233256](https://github.com/gulsevim-blbl/dataCenters_Map/assets/73358343/3bd3d85e-f06b-4d99-b3d8-f59e81943591)
+
+# For JSON validation control #
+## You can click on the link and provide JSON Validation
+https://jsonlint.com/#google_vignette
+
+# Contributing #
+I am open to any contribution.
