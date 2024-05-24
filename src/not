@@ -1,0 +1,87 @@
+/*DataCentersList.Tsx*/
+
+import React from 'react';
+import dataCenters from './data/data_centers.json';
+import './datacenterslist.css';
+
+interface DataCenter {
+  id: string;
+  Name: string;
+  Latitude: number;
+  Longitude: number;
+  Provider: string;
+}
+
+interface DataCenters {
+  [key: string]: DataCenter[];
+}
+
+const DataCentersList: React.FC = () => {
+  const typedDataCenters: DataCenters = dataCenters;
+
+  return (
+    <div className="data-center-list">
+      <h2>Data Centers</h2>
+      <div className="data-center-items">
+        {Object.keys(dataCenters).map((key) => {
+          if (typeof key === 'string') {
+            return (
+              <div key={key}>
+                <h3>{key}</h3>
+                <ul className="data-center-list-ul">
+                  {typedDataCenters[key].map((center: DataCenter) => (
+                    <li key={center.id} className="data-center-list-item">
+                      <p><strong>Name:</strong> {center.Name}</p>
+                      <p><strong>Latitude:</strong> {center.Latitude}</p>
+                      <p><strong>Longitude:</strong> {center.Longitude}</p>
+                      <p><strong>Provider:</strong> {center.Provider}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            );
+          }
+          return null;
+        })}
+      </div>
+    </div>
+  );
+};
+
+export default DataCentersList;
+
+
+/*CSS */
+.data-center-list {
+    /* Bileşenin genel stilleri */
+  }
+  
+  .data-center-items {
+    /* Data center listesinin stilleri */
+  }
+  
+  .data-center-items h3 {
+    /* Kategori başlıklarının stilleri */
+  }
+  
+  .data-center-list-ul {
+    list-style-type: none; /* Liste işaretlerini kaldır */
+    padding: 0; /* Liste içi boşlukları kaldır */
+    margin: 0; /* Liste kenar boşlukları kaldır */
+    display: flex; /* Yatay düzen için flex kullan */
+  }
+  
+  .data-center-list-item {
+    /* Her bir veri merkezi öğesinin stilleri */
+    padding: 10px; /* İçerik boşlukları */
+    border: 1px solid #ccc; /* Kenarlık */
+   /* Genişlik üçte biri, kenar boşlukları dahil */
+    margin: 10px; /* Kenar boşlukları */
+    box-sizing: border-box; /* Kenarlıkları genişlik hesaplamasına dahil et */
+   
+}
+  
+  .data-center-list-item p {
+    margin: 5px 0; /* Paragraf boşlukları */
+  }
+  
