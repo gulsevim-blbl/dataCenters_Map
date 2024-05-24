@@ -1,5 +1,46 @@
 .leaflet-container{
-
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
+    
   }
+  .buttons {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 5px;
+  }
+  
+  .icon-button {
+    width: 20px; 
+    height: 20px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .icon-button.azure {
+    background-image: url('https://img.icons8.com/color/48/azure-1.png');
+    text-indent: -9999px; /* Buton metnini gizler */
+  }
+  
+  .icon-button.aws {
+    background-image: url('https://img.icons8.com/color/48/amazon-web-services.png');
+    text-indent: -9999px; /* Buton metnini gizler */
+  }
+  
+  .icon-button.gcp {
+    background-image: url('https://img.icons8.com/color/48/google-cloud.png');
+    text-indent: -9999px; /* Buton metnini gizler */
+  }
+  
+  .icon-button.all {
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+
+ 
