@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+<h1 align="center"> Data Centers Map </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projem, AWS, Azure ve GCP gibi bulut bilişim sağlayıcılarına ait veri merkezlerinin detaylarını gösteren bir harita uygulamasını içeriyor. Bu uygulama, kullanıcıların bu veri merkezlerinin adını, bulundukları ülkeyi, koordinatlarını ve hangi bulut sağlayıcısına ait olduklarını görmelerini sağlıyor.
 
-## Available Scripts
+Kullanıcılar, harita üzerinde görsel olarak veri merkezlerinin konumlarını görebilirler. Her bir veri merkezi için altında yer alan liste ise daha detaylı bilgiler sunar. Bu bilgiler arasında:
 
-In the project directory, you can run:
+   1.Veri Merkezi Adı: Her bir veri merkezinin adı, kullanıcıların belirli bir veri merkezine daha kolay erişmelerini sağlar.
+   2.Bulunduğu Ülke: Veri merkezinin bulunduğu ülke bilgisi, kullanıcıların coğrafi konumunu daha iyi anlamalarına yardımcı olur.
+   3.Koordinatlar: Veri merkezinin tam konumunu belirten enlem ve boylam koordinatları, kullanıcıların harita üzerinde doğru konumu görmelerini sağlar.
+   4.Bulut Bilişim Sağlayıcısı: Her bir veri merkezinin hangi bulut sağlayıcısına ait olduğu bilgisi, kullanıcıların hangi sağlayıcıya ait olduğunu hızlıca anlamalarına yardımcı olur.
+   
+Bu şekilde, kullanıcılar bulut bilişim altyapılarını daha iyi anlayabilir, belirli bir sağlayıcıya ait veri merkezlerini kolayca bulabilir ve karşılaştırabilirler. Ayrıca, küresel bir bakış açısıyla bulut stratejilerini planlarken de kullanışlı olabilir.
 
-### `npm start`
+![Tam Hali projenin](https://github.com/gulsevim-blbl/dataCenters_Map/assets/73358343/2b64b1f9-9c08-4c3c-972b-fec1984e6438)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Step 1: Clone the project #
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+git clone https://github.com/gulsevim-blbl/dataCenters_Map.git
+```
 
-### `npm test`
+# Step 2: # 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm install
+```
 
-### `npm run build`
+# Step 3: #
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# detail area #
+![Ekran görüntüsü 2024-05-24 233206](https://github.com/gulsevim-blbl/dataCenters_Map/assets/73358343/da7f9dd9-74bc-4c05-af8f-4707c5e8227c)
+# Clicking on Azure #
+![Azure](https://github.com/gulsevim-blbl/dataCenters_Map/assets/73358343/b2b2ce45-558f-4ff6-9f6e-b157c52773ad)
+# Clicking on Aws #
+![AWS](https://github.com/gulsevim-blbl/dataCenters_Map/assets/73358343/e12ad413-3af0-4b69-8a07-b4e1fefcd8d4)
+# Clicking on GCP #
+![GCP](https://github.com/gulsevim-blbl/dataCenters_Map/assets/73358343/eaebc06b-83bf-46ac-8f2d-4c94bd151465)
+# Clicking on All #
+![ALL](https://github.com/gulsevim-blbl/dataCenters_Map/assets/73358343/6cdb0cab-6b3f-4631-a099-ba5487fd9f8b)
+# full version of the project #
+![Ekran görüntüsü 2024-05-24 233256](https://github.com/gulsevim-blbl/dataCenters_Map/assets/73358343/3bd3d85e-f06b-4d99-b3d8-f59e81943591)
