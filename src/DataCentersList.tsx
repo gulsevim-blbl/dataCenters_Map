@@ -14,6 +14,7 @@ interface DataCenter {
 const DataCentersList = () => {
   return (
     <div className="data-center-list">
+        <h6>Summary by region</h6>
       <table>
         <thead>
           <tr>

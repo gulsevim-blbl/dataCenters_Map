@@ -1,7 +1,12 @@
 .data-center-list {
     font-family: Arial, sans-serif;
+    height: 47vh;
+    overflow-y: auto; 
   }
-  
+  .data-center-list h6 {
+  margin: 0; 
+  padding: 0; 
+}
   table {
     width: 100%;
     border-collapse: collapse;
