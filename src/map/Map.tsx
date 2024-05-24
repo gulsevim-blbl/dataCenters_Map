@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import L from 'leaflet';
-import './map.css';
-import dataCenters from './data/data_centers.json';
+import "./map.css";
+import dataCenters from "../data/data_centers.json"
 
 interface DataCenterObject {
   id: string;

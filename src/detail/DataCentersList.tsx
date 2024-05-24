@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './data/data_centers.json';
+import data from '../data/data_centers.json';
 import "./datacenterslist.css";
 
 // DataCenter arayüzü

@@ -1,6 +1,6 @@
 import React from "react";
-import Map from "./Map";
-import DataCentersList from "./DataCentersList";
+import Map from "./map/Map"
+import DataCentersList from "./detail/DataCentersList";
 
 function App() {
   return (
